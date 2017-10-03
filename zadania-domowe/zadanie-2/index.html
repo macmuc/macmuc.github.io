@@ -6,7 +6,7 @@
 </head>
 
 <body>
-        <form action="https://formspree.io/mac.muc@wp.pl" method="POST">
+        <form action="https://formspree.io/mac.muc@wp.pl" method="POST" id="dane">
         
         <label for="imie">imie:</label><br/>
         <input type="text" name="imie" id="imie"><br/>
@@ -21,7 +21,7 @@
         <input type="number" name="telefon" id="telefon"><br/>
         
         <label for="miasto">miasto:</label><br/>
-        <select name="miasto" form="miasto">
+        <select name="miasto" form="dane" id="miasto">
         <option value="Warszawa">Warszawa</option>
         <option value="Kraków">Kraków</option>
         <option value="Gdańsk">Gdańsk</option>
@@ -31,8 +31,8 @@
         <input type="radio" name="gender" value="male" checked id="gender">mężczyzna<br/>
         <input type="radio" name="gender" value="female" id="gender">kobieta<br/><br/>
    
-   <label for="dane">zgoda na przetwarzanie danych osobowych</label><br/>
-        <input type="checkbox" name="dane" value="zgoda">wyrażam zgodę na przetwarzanie danych osobowych<br/><br/>
+   <label for="zgoda">zgoda na przetwarzanie danych osobowych</label><br/>
+        <input type="checkbox" name="zgoda" value="zgoda" id="zgoda">wyrażam zgodę na przetwarzanie danych osobowych<br/><br/>
    
    
         <label for="textarea">wiadomość:</label><br/>
