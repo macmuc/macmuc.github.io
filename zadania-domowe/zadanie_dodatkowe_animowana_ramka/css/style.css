@@ -1,0 +1,66 @@
+img {
+    
+    
+    
+    border: 5px solid black;
+    padding: 5px;
+}
+
+
+img::before {
+    
+    content: ;
+       
+}
+
+img::after {
+    
+    
+    content: 
+    
+}
+
+@keyframes caption {
+    
+    from {opacity: 0}
+    
+    to {opacity: 1}
+    
+}
+
+img:hover h1 {
+    
+    animation-name: caption;
+    
+    animation-duration: 5s;
+    
+    
+    
+    
+}
+
+#container {
+    
+    background-color: aqua;
+    width: 670px;
+    position:absolute;
+    top: 25%;
+    left: 35%;
+    
+    
+    
+    
+}
+
+h1 {
+    
+    position: absolute;
+    top: 35%;
+    left:0;right:0;
+    margin: auto;
+    
+    
+}
+
+
+
