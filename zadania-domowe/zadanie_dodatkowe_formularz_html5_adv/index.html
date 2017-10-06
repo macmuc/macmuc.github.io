@@ -11,20 +11,42 @@
         <fieldset>
         <legend>Customer Info</legend>
         <label for="name">name:</label><br/>
-        <input type="text" name="name" id="name" placeholder="Enter your name" autofocus><br/>
+        <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required><br/>
         
       
         
-        <label for="email">email:</label><br/>
-        <input type="email" name="_replyto" id="email"><br/>
+        
         
         <label for="telefon">telefon:</label><br/>
-        <input type="number" name="telefon" id="telefon"><br/>
-            </fieldset>
+        <input type="tel" name="telefon" id="telefon" required placeholder="Pattern 1-234-567-8910" pattern="[1-234-567-8910]"><br/>
+            
     
-   
-   
-        <input type="submit" value="Wyślij">
+    
+    
+   <label for="email">Email Adress:</label><br/>
+        <input type="email" name="_replyto" id="email" placeholder="Enter your email adress" required multiple><br/>
+           
+           
+            </fieldset>
+            
+            <fieldset>
+                <legend>Books</legend>
+                
+                
+                <select name="books">
+                <option value="Makbet">Makbet</option> 
+                <option value="Hamlet">Hamlet</option>    
+                <option value="Sen Nocy Letniej">Sen Nocy Letniej</option>    
+                <option value="Otello">Otello</option>    
+                <option value="Burza">Burza</option>    
+            
+                </select><br/><br/>
+                
+                <label for="quantity">Quantity (Maximum 5)</label>
+                <input type="number" min="1" max="5" id="quantity"><br/>
+                
+            </fieldset><br/><br/>
+        <input type="submit" value="submit">
 </form>
 </body>  
     
