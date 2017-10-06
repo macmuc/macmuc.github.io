@@ -18,7 +18,7 @@
         
         
         <label for="telefon">Telephone Number:</label><br/>
-        <input type="tel" name="telefon" id="telefon" required placeholder="Pattern 1-234-567-8910" pattern="[1-234-567-8910]"><br/>
+        <input type="tel" name="telefon" id="telefon" required placeholder="Pattern 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br/>
             
     
     
@@ -32,18 +32,19 @@
             <fieldset>
                 <legend>Books</legend>
                 
+                <input list="books" name="books">
                 
-                <select name="books">
+                <datalist id="books">
                 <option value="Makbet">Makbet</option> 
                 <option value="Hamlet">Hamlet</option>    
                 <option value="Sen Nocy Letniej">Sen Nocy Letniej</option>    
                 <option value="Otello">Otello</option>    
                 <option value="Burza">Burza</option>    
             
-                </select><br/><br/>
+                </datalist><br/><br/>
                 
                 <label for="quantity">Quantity (Maximum 5)</label>
-                <input type="number" min="1" max="5" id="quantity"><br/>
+                <input type="number" min="1" max="5" name="quantity" id="quantity"><br/>
                 
             </fieldset><br/><br/>
         <input type="submit" value="submit">
