@@ -1,0 +1,204 @@
+
+* {
+    
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+       
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+}
+
+nav#menu {
+    padding: 0;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    margin: 0px;
+    position: fixed;
+    font-family: 'Roboto';
+    z-index: 1;
+    
+    
+}
+
+nav#menu ul li {
+    
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 50px;
+    
+}
+nav#menu ul {
+    
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+nav#menu a {
+    
+    padding: 25px;
+    text-decoration: none;
+    color: #1ac056;
+    
+    
+    
+}
+
+#header {
+    height:80vh;
+    background-image: url(../img/header-background.jpg); 
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    /*top: 50%;
+    transform: translateY(-50%);*/
+    
+    
+}
+
+
+
+div#glowny_napis {
+    
+   
+    position: absolute;
+    font-family: 'Roboto';
+    top: 30%;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60%;
+     
+}
+h1 {
+    
+    color: white;
+    
+}
+
+h1 span {
+    
+   color: #1ac056; 
+    
+    
+}
+
+#glowny_napis h2{
+    
+    color: white;
+    font-weight: 100;
+    
+    
+    
+}
+
+
+
+section#o_mnie {
+    
+    background-color: aliceblue;
+    height:60vh;
+    padding-top: 50px;
+    
+    
+}
+
+section#o_mnie figure img {
+    
+    width:35%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+section#o_mnie figure {
+    width: 50%;
+    float:left;
+    margin: 0;
+    
+    
+}
+
+section#o_mnie article{
+    padding: 30px;
+    width:50%;
+    float: right;
+    box-sizing: border-box;
+    
+    
+}
+
+
+section#o_mnie h2 {
+    
+    position: relative;
+    left: 50%;
+    
+    
+    
+    
+}
+
+h2 span {
+    
+    color: #1ac056;
+    
+    
+}
+
+
+
+figure {
+    margin:0;
+    position: relative;
+    
+}
+
+section#umiejetnosci {
+    
+    margin-top: 60px;
+    text-align: center;
+    height:60vh;
+   
+    
+    
+}
+
+
+#ikony {
+    
+    width: 100%;
+    text-align: center;
+    
+}
+
+.ikona {
+    
+    display: inline-block;
+    margin-right: 45px;
+}
+
+section#portfolio {
+    
+    text-align: center;
+    height:60vh;
+   
+    
+    
+}
+
+h2 {
+    
+    margin: 0;
+    
+}
