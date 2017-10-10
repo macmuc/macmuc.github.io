@@ -1,22 +1,37 @@
 img {
     
     
+    position: relative;
     
-    border: 5px solid black;
     padding: 5px;
 }
 
 
 img::before {
     
-    content: ;
-       
+    content: attr(border);
+      border:5px solid black;
 }
 
+    
+    
+}
 img::after {
     
     
-    content: 
+    content: attr(border:5px solid black);
+
+    
+}
+
+h1 {
+    
+position: absolute;
+    top:50%;
+    left:50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+    
     
 }
 
@@ -28,7 +43,7 @@ img::after {
     
 }
 
-img:hover h1 {
+img:hover + h1 {
     
     animation-name: caption;
     
@@ -41,26 +56,14 @@ img:hover h1 {
 
 #container {
     
-    background-color: aqua;
+    
     width: 670px;
-    position:absolute;
-    top: 25%;
+    position:relative;
+    top: 125px;
     left: 35%;
     
     
     
     
 }
-
-h1 {
-    
-    position: absolute;
-    top: 35%;
-    left:0;right:0;
-    margin: auto;
-    
-    
-}
-
-
 
