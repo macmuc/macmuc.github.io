@@ -202,3 +202,16 @@ h2 {
     margin: 0;
     
 }
+
+#kontener {
+    text-align: center;
+    
+    
+}
+.obrazki {
+    
+    display: inline-block;
+    width: 10%;
+    margin-right: 150px;
+    
+}
