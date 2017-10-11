@@ -28,7 +28,7 @@ header {
 
 
 h1 {
-    
+    display: inline-block;
     position: absolute;
     top: 40%;
     color: white;

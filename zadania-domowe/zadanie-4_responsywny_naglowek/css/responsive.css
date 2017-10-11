@@ -10,7 +10,8 @@
     h1 {
         
         top: 20%;
-        left:80%; 
+        left: 65%;
+        width: 350px;
         
         
         
@@ -30,12 +31,14 @@
     
     h1{
         
+        
+        display: block;
         color: black;
         left: 0;
         right: 0;
         margin: auto;
         top: 105%;
-        
+    
 
         
     }
