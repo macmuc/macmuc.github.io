@@ -6,6 +6,7 @@
     
 }
 
+
 body {
        
     font-family: 'Lato',sans-serif;
@@ -104,6 +105,13 @@ h1 span {
     
 }
 
+section#o_mnie article p {
+    
+    height: 60vh;
+    
+    
+    
+}
 
 
 section#o_mnie {
@@ -111,7 +119,7 @@ section#o_mnie {
     background-color: aliceblue;
     height:60vh;
     padding-top: 50px;
-    
+    overflow: hidden;
     
 }
 
@@ -492,3 +500,12 @@ footer p
     
     margin: 0;
 }
+
+
+section {
+    
+    padding: 0 80px 100px;
+    width: 100%;
+    
+}
+
