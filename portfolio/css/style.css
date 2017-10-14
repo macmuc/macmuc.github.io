@@ -26,6 +26,12 @@ nav#menu {
     
 }
 
+#menu .toggle, [id='drop'] {
+    
+    display: none;
+    
+}
+
 nav#menu ul li {
     
     display: inline-block;
