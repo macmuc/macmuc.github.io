@@ -1,0 +1,60 @@
+@media all and (max-width: 1200px) {
+    
+    /*section#o_mnie figure {
+        
+        width: 100%;
+        
+        
+    }
+    
+    
+    section#o_mnie figure img{
+        
+        width: 100%;
+        
+        
+    }
+    
+    
+    section#o_mnie article{
+        
+        
+        width:100%;
+        
+    }
+    
+    */
+}
+
+@media all and (max-width: 992px) {
+    
+    
+    
+}
+
+
+@media all and (max-width:768px) {
+    
+    #portfolio {
+        
+        width: 100%;
+        
+    }
+    
+    
+    #portfolio .portfolio-items .portfolio-item {
+        
+        width: 100%;
+        display: block;
+        
+        
+    }
+    
+    
+}
+
+@media all and (max-width:576px) {
+    
+    
+    
+}
