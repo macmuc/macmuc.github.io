@@ -205,13 +205,79 @@ h2 {
 
 #kontener {
     text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:80%;
+    position: relative;
+    top: 20%;
+}
+#obrazki1 {
+    
+    background-image: url(../img/portfolio1.jpg);
+    display: inline-block;
+    width: 33%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#obrazki2 {
+    
+    background-image: url(../img/portfolio2.jpg);
+    display: inline-block;
+    width: 33%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#obrazki3 {
+    
+    background-image: url(../img/portfolio4.jpg);
+    display: inline-block;
+    width: 33%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#ramka1 {
+    
+    opacity: 0;
+    border: 1px solid white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
     
     
 }
-.obrazki {
+
+
+
+
+#maska1 {
     
-    display: inline-block;
-    width: 10%;
-    margin-right: 150px;
+    opacity: 0;
+    background-color: navy;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    z-index: 1;
+    
+}
+
+#obrazki1:hover #maska1 {
+    
+    opacity: 0.5;
+    
     
 }
