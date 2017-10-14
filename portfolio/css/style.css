@@ -133,7 +133,7 @@ section#o_mnie article{
     padding: 30px;
     width:50%;
     float: right;
-    box-sizing: border-box;
+    
     
     
 }
@@ -142,8 +142,10 @@ section#o_mnie article{
 section#o_mnie h2 {
     
     position: relative;
-    left: 50%;
-    
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
     
     
     
@@ -164,7 +166,16 @@ figure {
     
 }
 
+figure.ikona img{
+    
+    
+    margin-bottom: 15px;
+    
+    
+}
+
 section#umiejetnosci {
+    
     
     margin-top: 60px;
     text-align: center;
@@ -174,6 +185,12 @@ section#umiejetnosci {
     
 }
 
+section#umiejetnosci p {
+    
+    
+    margin: 25px;
+    
+}
 
 #ikony {
     
@@ -192,8 +209,8 @@ section#portfolio {
     
     text-align: center;
     height:60vh;
-   
-    
+   width: 100%;
+    margin: 0;
     
 }
 
@@ -203,81 +220,108 @@ h2 {
     
 }
 
-#kontener {
+#portfolio #portfolio-item-1 {
+    
+    
+    background-image: url(../img/portfolio1.jpg)
+    
+    
+}
+
+
+#portfolio #portfolio-item-2 {
+    
+    
+    background-image: url(../img/portfolio2.jpg)
+    
+    
+}
+
+
+#portfolio #portfolio-item-3 {
+    
+    
+    background-image: url(../img/portfolio4.jpg)
+    
+    
+}
+
+#portfolio .portfolio-items {
+    
     text-align: center;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width:80%;
+    font-size: 0;
+    
+}
+
+#portfolio .portfolio-items .portfolio-item
+
+
+{
+    
+    height: 350px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
     position: relative;
-    top: 20%;
-}
-#obrazki1 {
-    
-    background-image: url(../img/portfolio1.jpg);
-    display: inline-block;
-    width: 33%;
-    height: 40vh;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-#obrazki2 {
-    
-    background-image: url(../img/portfolio2.jpg);
-    display: inline-block;
-    width: 33%;
-    height: 40vh;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-}
-
-#obrazki3 {
-    
-    background-image: url(../img/portfolio4.jpg);
-    display: inline-block;
-    width: 33%;
-    height: 40vh;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-#ramka1 {
-    
-    opacity: 0;
-    border: 1px solid white;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    
-    
-    
-    
 }
 
 
+.maska
 
-
-#maska1 {
+{
     
-    opacity: 0;
     background-color: navy;
-    color: white;
     width: 100%;
     height: 100%;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-    z-index: 1;
-    
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
 }
 
-#obrazki1:hover #maska1 {
+
+#portfolio-item-1:hover #maska-1 {
     
     opacity: 0.5;
     
+    
+}
+
+#portfolio-item-2:hover #maska-2 {
+    
+    opacity: 0.5;
+    
+    
+}
+#portfolio-item-3:hover #maska-3 {
+    
+    opacity: 0.5;
+    
+    
+}
+
+#portfolio .portfolio-items .portfolio-item .maska .item-content {
+    
+    position: relative;
+    border:1px solid white;
+    margin: 10px;
+    height: 330px;
+    
+    
+}
+
+
+#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner  {
+    
+    
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    right: 0;
+    left: 0;
+    margin: auto;
     
 }
