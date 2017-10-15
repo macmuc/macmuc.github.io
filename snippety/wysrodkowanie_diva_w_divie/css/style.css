@@ -1,0 +1,24 @@
+div#pierwszy {
+    
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    
+}
+
+
+div#drugi {
+    
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    
+}
