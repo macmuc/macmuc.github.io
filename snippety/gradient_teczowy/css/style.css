@@ -1,0 +1,21 @@
+body {
+    
+    
+    
+   background-color: aliceblue;
+   
+    
+}
+
+
+div {
+    
+    width: 550px;
+    height: 650px;
+    background: linear-gradient(to right,red,yellow,green,blue,violet);
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+}
