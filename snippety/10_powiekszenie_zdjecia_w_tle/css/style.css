@@ -1,0 +1,30 @@
+#container {
+    
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#jedyny {
+    
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: scale(1,1);
+    transition-duration: 250ms;
+    overflow: hidden;
+    
+}
+
+#jedyny:hover {
+    
+    
+
+    transform: scale(1.05,1.07);
+    
+}
