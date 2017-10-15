@@ -1,0 +1,56 @@
+
+html {
+    
+height: 100%;    
+    
+}
+
+body {
+    
+    height: 100%;
+    
+}
+
+#parallax {
+    height: 220%;
+    background-image: url(../img/header-background.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#jeden {
+    
+    height: 30vh;
+    background-color: aliceblue;
+    
+    
+    
+    
+}
+
+
+#dwa {
+    
+    position: relative;
+    top: 30%;
+    background-color: yellow;
+    height: 30vh
+    
+    
+    
+}
+
+
+#trzy {
+    
+    position: relative;
+    top: 70%;
+    height: 30vh;
+    background-color: aqua
+    
+    
+}
