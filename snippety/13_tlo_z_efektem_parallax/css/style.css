@@ -11,8 +11,8 @@ body {
     
 }
 
-#parallax {
-    height: 220%;
+#parallax_jeden {
+    height: 100%;
     background-image: url(../img/header-background.jpg);
     
     background-attachment: fixed;
@@ -22,9 +22,42 @@ body {
     
 }
 
+
+#parallax_dwa {
+    
+     height: 100%;
+    background-image: url(../img/portfolio1.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+#parallax_trzy {
+    
+     height: 100%;
+    background-image: url(../img/portfolio2.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+
 #jeden {
     
-    height: 30vh;
+    
+    position: relative;
+    top:60%;
+    height: 50vh;
     background-color: aliceblue;
     
     
@@ -36,7 +69,7 @@ body {
 #dwa {
     
     position: relative;
-    top: 30%;
+    top: 80%;
     background-color: yellow;
     height: 30vh
     
