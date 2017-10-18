@@ -1,0 +1,33 @@
+@media all and (max-width:992px) {
+    
+   
+    div[id^="produkt"]{
+        
+        margin-left: 15%;
+        top: 15%
+    
+        
+    }
+    
+    
+    
+}
+
+@media all and (max-width:480px) {
+    
+    
+    
+    div#container {
+        
+        height: 100%;
+        
+    }
+    
+    div[id^="produkt"] {
+    margin-left:35%;
+    
+    
+    
+    }
+    
+}

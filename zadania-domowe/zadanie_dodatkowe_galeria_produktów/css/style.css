@@ -1,0 +1,117 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+div#container {
+
+    background-color: aquamarine;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    height: 80%;
+}
+
+div[id^="produkt"] {
+
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+div#produkt_1 {
+
+    background-image: url(../img/product-1.jpg);
+
+
+}
+
+
+div#produkt_2 {
+
+    background-image: url(../img/product-2.jpg);
+
+
+}
+
+
+div#produkt_3 {
+
+    background-image: url(../img/product-3.jpg);
+
+
+}
+
+
+div#produkt_4 {
+
+    background-image: url(../img/product-4.jpg);
+
+
+}
+
+
+div.maska {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255, 111, 0, 0.5);
+    opacity: 0;
+    transition: opacity 2s;
+    
+
+
+}
+
+div#produkt_1:hover div.maska {
+
+    opacity: 1;
+}
+
+
+div#produkt_2:hover div.maska {
+    opacity: 1;
+    
+}
+
+div#produkt_3:hover div.maska {
+    opacity: 1;
+    
+}
+
+div#produkt_4:hover div.maska {
+    opacity: 1;
+    
+}
+
+
+
+
+
+a#link {
+    
+    
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin:auto;
+    transform: translateY(-50%);
+    color: white;
+    
+    z-index: 1;
+    
+}
