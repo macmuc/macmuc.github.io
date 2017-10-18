@@ -70,7 +70,7 @@ div.maska {
     background-color: rgba(255, 111, 0, 0.5);
     opacity: 0;
     transition: opacity 2s;
-    
+
 
 
 }
@@ -83,17 +83,17 @@ div#produkt_1:hover div.maska {
 
 div#produkt_2:hover div.maska {
     opacity: 1;
-    
+
 }
 
 div#produkt_3:hover div.maska {
     opacity: 1;
-    
+
 }
 
 div#produkt_4:hover div.maska {
     opacity: 1;
-    
+
 }
 
 
@@ -101,17 +101,17 @@ div#produkt_4:hover div.maska {
 
 
 a#link {
-    
-    
+
+
     position: relative;
     display: inline-block;
     top: 50%;
     left: 0;
     right: 0;
-    margin:auto;
+    margin: auto;
     transform: translateY(-50%);
     color: white;
-    
+
     z-index: 1;
-    
+
 }
