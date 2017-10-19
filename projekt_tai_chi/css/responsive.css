@@ -1,0 +1,80 @@
+@media all and (max-width : 1200px){
+    
+    
+    
+}
+
+
+@media all and (max-width : 992px){
+    
+    
+    
+}
+
+@media all and (max-width : 768px) {
+    
+    
+    
+    div#kula {
+        
+        width: 70px;
+        height: 70px;
+        
+        
+    }
+    div#kula p#kula_napis {
+        
+        font-size: 12px;
+        
+    }
+    div#kula p#kula_napis span{
+        
+        margin:10px;
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+@media all and (max-width : 676px) {
+    
+    nav#menu{
+        
+        background: linear-gradient(black,#a1a1d6,#a1a1d6);
+        width:100px;
+        height: 100%;
+        z-index: 1;
+    }
+    
+    
+    nav#menu ul li a {
+        
+        display: block;
+        font-size: 80%;
+        margin-top: 25px;
+        
+    }
+    
+    #header {
+        
+        top: 0;
+        
+        
+    }
+    
+    #header div#header_caption {
+        
+        
+        font-size: 75%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        
+    }
+    
+}
