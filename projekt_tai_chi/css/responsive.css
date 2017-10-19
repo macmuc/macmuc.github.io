@@ -62,19 +62,45 @@
     #header {
         
         top: 0;
-        
+        width: 100%;
         
     }
     
     #header div#header_caption {
         
-        
-        font-size: 75%;
+        width:50% ;
+        font-size:58%;
         position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
+        left: 30%;
         
+    }
+    
+    #header h2#secondary_caption{
+        
+        font-size: 10px;
+        
+    }
+    #content {
+        
+        width: 100%;
+    }
+    
+    #content #content_main_caption {
+        
+        width:30% ;
+        
+        position: absolute;
+        left: 30%;
+        
+    }
+    
+    #content_caption {
+        
+        margin-top: 25px;
+        width:50% ;
+        top: 250px;
+        position: absolute;
+        left:30%;
     }
     
 }

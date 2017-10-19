@@ -108,19 +108,65 @@ div#kula p#kula_napis {
     background-color: #86cece;
     position: relative;
     top:90px; 
-    height: 60vh;
+    height: 50vh;
     color: aliceblue;
-    
+    width: 100%;
 }
 
 #header div#header_caption {
     position: relative;
-    width: 30%;
+    width: 35%;
     top:50%;
     transform: translateY(-50%);
     right: 0;
     left: 0;
     margin: auto;
+    text-align: center;
+    font-variant-caps: small-caps;
+}
+
+#header h2#secondary_caption {
+    
+    font-size: 90%;
+    text-align: center;
+    
+}
+
+
+#content {
+    
+    background-color: azure;
+    color: black;
+    height: 80%;
+    position: relative;
+    top: 125px;
+    width: 100%;
+    
+}
+
+#content #content_main_caption {
+    
+    margin-bottom: 15px;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    text-align: center;
+    
+}
+
+#content_caption {
+    
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    top: 90px;
+    text-align: center;
     
     
 }
