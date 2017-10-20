@@ -87,25 +87,42 @@
     
     #content #content_main_caption {
         
-        width:30% ;
+       width:50%;
+        margin-left: 60px;
         
-        position: absolute;
-        left: 30%;
+        
         
     }
     
-    #content_caption {
+    .content_caption {
         
-        margin-top: 25px;
-        width:50% ;
-        top: 250px;
-        position: absolute;
-        left:30%;
+        
+       width:50%;
+        margin-left: 100px;
+        position: relative;
+        
+    }
+    
+    figure {
+        width: 100%;
+        text-align: center;
+    }
+    
+    img {
+        margin-left: 100px;
+        width: auto;
+        
+    }
+    
+    figcaption{
+        margin-left: 100px;
+        display: inline-block;
+        width:70%;
     }
     
 }
 
-@media all and (max-height : 476px) {
+@media all and (max-height : 476px) and (max-width:676px) {
     
     #kula {
         display: none;

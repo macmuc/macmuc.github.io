@@ -11,7 +11,7 @@ nav#menu {
     display: block;
     width: 100%;
     background: linear-gradient(to right,black,#a1a1d6,#a1a1d6);
-    
+    z-index: 1;
    height: 90px;
     
     
@@ -107,8 +107,8 @@ div#kula p#kula_napis {
     
     background-color: #86cece;
     position: relative;
-    top:90px; 
-    height: 50vh;
+     
+    height: 70vh;
     color: aliceblue;
     width: 100%;
 }
@@ -139,34 +139,38 @@ div#kula p#kula_napis {
     color: black;
     height: 80%;
     position: relative;
-    top: 125px;
+    text-align: center;
     width: 100%;
     
 }
 
 #content #content_main_caption {
     
-    margin-bottom: 15px;
-    position: absolute;
-    width: 50%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: block;
+    top: 5px;
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     
 }
 
-#content_caption {
+.content_caption {
     
-    position: absolute;
+    display: inline-block;
+    margin-top: 5%;
     width: 50%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: block;
-    top: 90px;
-    text-align: center;
     
     
 }
+
+
+img {
+    margin-bottom: 15px;
+        margin-top: 15px;
+        border: 2px solid black;
+        border-radius: 5px;
+    
+}
+
+figcaption
