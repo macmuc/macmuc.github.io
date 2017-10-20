@@ -85,7 +85,7 @@
         width: 100%;
     }
     
-    #content #content_main_caption {
+    #content h2{
         
        width:50%;
         margin-left: 60px;
@@ -94,7 +94,7 @@
         
     }
     
-    .content_caption {
+    #content p{
         
         
        width:50%;

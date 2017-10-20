@@ -144,7 +144,7 @@ div#kula p#kula_napis {
     
 }
 
-#content #content_main_caption {
+#content h2{
     
     top: 5px;
     position: relative;
@@ -155,7 +155,7 @@ div#kula p#kula_napis {
     
 }
 
-.content_caption {
+#content p{
     
     display: inline-block;
     margin-top: 5%;
