@@ -104,3 +104,13 @@
     }
     
 }
+
+@media all and (max-height : 476px) {
+    
+    #kula {
+        display: none;
+        
+    }
+    
+    
+}
