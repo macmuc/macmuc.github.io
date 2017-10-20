@@ -83,6 +83,7 @@
     #content {
         height: 170%;
         width: 100%;
+        text-align: center;
     }
     
     #content h2{
@@ -96,10 +97,10 @@
     
     #content p{
         
-        left: 40%;
+        margin-left: 100px;
        width:50%;
         
-        position: relative;
+        display: inline-block;
         
     }
     
@@ -110,9 +111,9 @@
     }
     
     img {
-        margin-left: 20px;
+        margin-left: 100px;
         width: 68%;
-        left: 12%;
+        
         position: relative;
     }
     
