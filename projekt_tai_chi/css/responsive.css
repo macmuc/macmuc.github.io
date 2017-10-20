@@ -120,6 +120,19 @@
         width:70%;
     }
     
+    footer{
+        
+        height: 50px;
+        
+    }
+    
+    footer p{
+         
+        margin-left: 100px;
+        
+    }
+    
+    
 }
 
 @media all and (max-height : 476px) and (max-width:676px) {

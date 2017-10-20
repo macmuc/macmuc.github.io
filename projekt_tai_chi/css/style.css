@@ -173,4 +173,19 @@ img {
     
 }
 
-figcaption
+
+footer {
+    
+    height:25px;
+    width:100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+footer p {
+    display: inline-block;
+    
+    
+}
