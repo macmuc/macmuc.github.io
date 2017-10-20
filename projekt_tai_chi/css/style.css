@@ -6,6 +6,9 @@
 }
 
 
+    
+
+
 nav#menu {
     position: fixed;
     display: block;
@@ -139,7 +142,6 @@ div#kula p#kula_napis {
     color: black;
     height: 80%;
     position: relative;
-    text-align: center;
     width: 100%;
     
 }
@@ -157,13 +159,38 @@ div#kula p#kula_napis {
 
 #content p{
     
-    display: inline-block;
+    
+    position: relative;
+    width: 80%;
     margin-top: 5%;
+    
+    margin-bottom: 5%;
+    
+}
+#lewo {
+    
     width: 50%;
+    float: left;
+    position: relative;
+    top: 15%;
     
     
 }
 
+#prawo {
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 15%;
+    
+    
+}
+figure {
+    width: 100%;
+    position: relative;
+    
+    text-align: center;
+}
 
 img {
     margin-bottom: 15px;
@@ -172,15 +199,22 @@ img {
         border-radius: 5px;
     
 }
-
+figcaption{
+        
+        
+       
+        margin-bottom: 15px;
+        
+    }
 
 footer {
-    
+    clear: both;
     height:25px;
     width:100%;
     background-color: black;
     color: aliceblue;
     text-align: center;
+    
     
 }
 

@@ -81,7 +81,7 @@
         
     }
     #content {
-        
+        height: 170%;
         width: 100%;
     }
     
@@ -96,9 +96,9 @@
     
     #content p{
         
-        
+        left: 40%;
        width:50%;
-        margin-left: 100px;
+        
         position: relative;
         
     }
@@ -106,18 +106,22 @@
     figure {
         width: 100%;
         text-align: center;
+        
     }
     
     img {
-        margin-left: 100px;
+        margin-left: 20px;
         width: 70%;
-        
+        left: 10%;
+        position: relative;
     }
     
     figcaption{
         margin-left: 100px;
         display: inline-block;
         width:70%;
+        margin-bottom: 15px;
+        
     }
     
     footer{
@@ -132,6 +136,19 @@
         
     }
     
+    #lewo {
+        
+        width: 100%;
+        float: none;
+        
+    }
+    
+    #prawo {
+        
+         width: 100%;
+        float: none;
+        
+    }
     
 }
 
