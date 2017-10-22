@@ -197,3 +197,20 @@
     
     
 }
+
+
+
+@media all and (orientation:landscape) and (max-height : 376px) {
+    
+    
+    #kula {
+        display: none;
+        
+    }
+    
+    img { 
+        width:85%;
+    
+    }
+    
+}
