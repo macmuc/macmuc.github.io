@@ -61,7 +61,7 @@
     
     #header {
         
-        top: 0;
+        
         width: 100%;
         
     }
@@ -213,4 +213,15 @@
     
     }
     
+    #header div#header_caption {
+        
+        
+        left: 25%;
+        
+    }
+    
+    #header h2#secondary_caption{
+        
+        left:25%;
+    }
 }
