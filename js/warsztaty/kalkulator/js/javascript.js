@@ -6,7 +6,7 @@ function obliczZysk(wplata, iloscLat, okresKapitalizacji, oprocentowanie, podate
     
     if(podatek/* == true*/){
         
-       var oprocentowanieOpodatkowane = oprocentowanie - (oprocentowanie * 0,19)//czy 0,19 jest dobrze?
+       var oprocentowanieOpodatkowane = oprocentowanie - (oprocentowanie * 0.19)//czy 0,19 jest dobrze?
         
     }
     
