@@ -87,9 +87,9 @@
     }
     
     #content h2{
-        
-       width:50%;
-        margin-left: 60px;
+        position: relative;
+       width:48%;
+        left: 64%;
         
         
         
@@ -97,30 +97,33 @@
     
     #content p{
         
-        margin-left: 100px;
+        position: relative;
        width:50%;
+        left:40%;
         
-        display: inline-block;
         
     }
     
     figure {
-        width: 100%;
+        width: 80%;
         text-align: center;
-        
+        position: relative;
+        left: 20%;
+         
     }
     
     img {
-        margin-left: 100px;
-        width: 68%;
         
+        width: 68%;
+        left:5%;
         position: relative;
+        
     }
     
     figcaption{
-        margin-left: 100px;
-        display: inline-block;
-        width:70%;
+        left: 20%;
+        position: relative;
+        width:68%;
         margin-bottom: 15px;
         
     }
