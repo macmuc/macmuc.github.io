@@ -89,7 +89,7 @@
     #content h2{
         position: relative;
        width:48%;
-        left: 64%;
+        left: 60%;
         
         
         
@@ -114,8 +114,8 @@
     
     img {
         
-        width: 68%;
-        left:5%;
+        width: 80%;
+        
         position: relative;
         
     }
@@ -153,6 +153,38 @@
         float: none;
         
     }
+    
+}
+
+@media all and (max-width:476px){
+   
+    
+    
+    #content h2{
+        
+        left: 64%;
+        
+        
+        
+    }
+   
+    #content p{
+        
+        
+        left:40%;
+    
+    }
+    
+    img {
+        
+        
+        left:5%;
+       
+        
+    }
+    
+    
+    
     
 }
 
