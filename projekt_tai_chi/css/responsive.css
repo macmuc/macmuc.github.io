@@ -68,16 +68,17 @@
     
     #header div#header_caption {
         
-        width:50% ;
-        font-size:58%;
+        width:60% ;
+        font-size:88%;
         position: absolute;
-        left: 30%;
+        left: 27%;
         
     }
     
     #header h2#secondary_caption{
         
-        font-size: 10px;
+        
+        font-size: 15px;
         
     }
     #content {
