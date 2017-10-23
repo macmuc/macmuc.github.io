@@ -110,7 +110,7 @@
         text-align: center;
         position: relative;
         left: 20%;
-         
+          margin-bottom: 15px;
     }
     
     img {
@@ -122,10 +122,10 @@
     }
     
     figcaption{
-        left: 15%;
+        display: inline;
         position: relative;
         width:68%;
-        margin-bottom: 15px;
+       
         
     }
     
@@ -226,9 +226,5 @@
         left:20%;
     }
     
-    figcaption{
-        left: 13%;
-       
-        
-    }
+    
 }
