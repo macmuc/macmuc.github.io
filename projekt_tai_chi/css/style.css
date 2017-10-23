@@ -168,7 +168,7 @@ div#kula p#kula_napis {
     
 }
 #lewo {
-    
+    background-color: azure;
     width: 50%;
     float: left;
     position: relative;
@@ -182,7 +182,7 @@ div#kula p#kula_napis {
     float: right;
     position: relative;
     top: 15%;
-    
+    background-color: azure;
     
 }
 figure {
