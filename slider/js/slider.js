@@ -8,7 +8,7 @@ $(document).ready(function (){
     var slideWidth = 100/slideCount;
     var slideIndex = 0;
     
-    slideShow.css("width", (slideCount *100) + "%");
+    slideShow.css("width", (slideCount *100) + "%");//jeśli dodasz liczbę do stringa to dostaniesz stringa
     
     slideShow.find(".single-slide").each(function(index){
         
