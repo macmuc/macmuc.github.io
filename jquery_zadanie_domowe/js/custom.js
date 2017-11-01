@@ -43,24 +43,27 @@ $("#button1").click(function () {
     }, "3s", function kolor() {
         console.log("test");
         document.getElementById("kwadrat").style.backgroundColor = "blue";
-        $("#kwadrat").addClass("blue", function napis() {
-
-            var newCaption = $("<h2></h2>").attr({
-
-                text: "Animacja zakończona",
+        $("#kwadrat").addClass("blue");
 
 
-
-            });
-
-            console.log("another test");
-            $("#kwadrat").append(newCaption);
-        });
 
     });
 
 
 
+    $(newDiv).append("<h2>Animacja zakończona</h2>");
+
+    $("h2").css({
+        "font-size": "14px",
+        "opacity": "0"
+
+    });
+
+    $("h2").delay(5000).animate({
+
+        opacity: "1"
 
 
-})
+    }, );
+
+});
