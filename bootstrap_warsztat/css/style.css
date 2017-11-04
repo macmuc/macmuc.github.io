@@ -1,0 +1,45 @@
+#header_first_row{width: 100%;height:100%;position: relative}
+.navbar-brand h2,.nav-item a {
+    
+    color: white;
+    margin-left: 10px;
+    
+}
+
+@media all screen and (max-width:992){
+    
+    
+    nav#main-nav {background-color: white}
+    
+    
+}
+
+#header_main_caption{
+    color: white;
+    padding: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+#header{
+    
+    height: 120vh;
+    background-image:/*linear-gradient(to right rgba(0, 0, 0, 0.5),to left rgba(0, 0, 0, 0.5)),*/url(../img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+
+#header_button{
+    
+    
+    
+}
