@@ -45,13 +45,14 @@ ul .navbar-nav {
 
 }
 
-@media all screen and (max-width:992) {
+@media all screen and (max-width:992px) {
 
 
     nav#main-nav {
         background-color: white
     }
     ;
+
 
 
 }
@@ -70,7 +71,7 @@ ul .navbar-nav {
 #header {
 
     height: 120vh;
-    background-image: /*linear-gradient(to right rgba(0, 0, 0, 0.5),to left rgba(0, 0, 0, 0.5)),*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
     url(../img/header/pictures_on_the_wall.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -93,6 +94,7 @@ ul .navbar-nav {
 #main-nav.scroll {
 
     background-color: rgba(14, 216, 214, 0.5);
+
 }
 
 #main-nav.scroll .nav-item a:hover {
