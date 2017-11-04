@@ -102,3 +102,12 @@ ul .navbar-nav {
     color: #777;
 
 }
+section#services div#services_main {
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+}
