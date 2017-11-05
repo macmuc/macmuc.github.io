@@ -17,3 +17,15 @@ $(function(){
     
     
 });
+
+
+$(function buttonAddCaption(){
+    
+    $("#header_button").click(function(){
+        
+        $("#header_additional_caption").css("opacity","1");
+        
+    });
+    
+    
+});

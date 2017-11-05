@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Warsztat bootstrap</title>
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -36,7 +37,9 @@
                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
                <h1>Lorem ipsum dolor.</h1>
                
-               <a href="#"><button id="header_button" class="btn btn-primary text-uppercase">view more</button></a>
+               <button id="header_button" class="btn btn-primary text-uppercase">view more</button>
+               <div id="header_additional_caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nam aspernatur laborum ipsum rem similique unde voluptate aliquam mollitia aliquid, non quos, minus accusamus quis, neque! Est, nostrum excepturi natus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque commodi enim beatae eius debitis praesentium sint architecto, maxime ad nemo!</div>
+               
             </div>
            
         
@@ -50,18 +53,46 @@
        <h2>Services</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
         </div>
-       <!-- <div class="row">
-            <div class="col-sm-4">
-                <div id="web_development">
+        <div class="row" id="services_row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <div id="web_development" class="services_item">
+                   <i class="fa fa-suitcase fa-2x services_font"></i>
                     <h4>Web Development</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laudantium.</p>
                 </div>
-                
-            </div>
+                </div>
+                <div class="col-sm-2">
+                <div id="e_commerce" class="services_item">
+                   <i class="fa fa-cloud-download fa-2x services_font"></i>
+                    <h4>E Commerce</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laudantium.</p>
+                </div>
+                 </div>
             
+            <div class="col-sm-3">
+            <div id="web_design" class="services_item">
+                   <i class="fa fa-comment fa-2x services_font"></i>
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laudantium.</p>
+                </div>
+            </div>
+             <div class="col-sm-2"></div>
         </div>
         
-    </section>-->
+    </section>
+    <section id="portfolio">
+        <div id="portfolio_main_caption">
+            <h2>Portfolio</h2>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            
+        </div>
+       
+        
+        
+        
+    </section>
+    
     
      <script src="js/jquery-3.2.1.min.js"></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js></script>
