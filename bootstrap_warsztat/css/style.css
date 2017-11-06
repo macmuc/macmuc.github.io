@@ -10,6 +10,7 @@ section {
     padding: 60px 0;
 
 }
+.row{width: 100%;}
 
 .navbar-brand h2 {
     font-family: "Montserrant", sans-serif
@@ -116,7 +117,7 @@ ul .navbar-nav {
 
 }
 
-
+div#services_main{padding:35;}
 section#services div#services_main {
     
     position: relative;
@@ -127,8 +128,10 @@ section#services div#services_main {
     text-align: center;
 }
 div#services_main h2 {
-    
+     font-family: "Montserrant", sans-serif;
     color: black;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 
@@ -170,14 +173,15 @@ section#portfolio
 #portfolio_main_caption {
 
     text-align: center;
-    
+     padding: 35px;
     
 }
 
 #portfolio_main_caption h2 {
-    
+    font-weight: bold;
+    font-family: "Montserrant", sans-serif;
     color: black;
-    
+    text-transform: uppercase;
 }
 #portfolio_picture_first {background-image: url(../img/portfolio/chestnut_on_bracket.jpg);}
 
@@ -244,4 +248,51 @@ section#portfolio
     padding-left: 40px;
    width: 100%;
     margin-top: 20px;
+}
+.portfolio_container_caption{
+   color: black; font-family: "Montserrant", sans-serif;font-weight: bold;
+}
+
+.portfolio_container_caption_small{font-style: italic};
+div.team_members{
+    text-align: center;
+}
+div.team_members figure img {
+    
+    width: 100%;
+    border-radius: 50%;
+}
+
+#team_main_caption {
+    padding: 35px;
+   text-align: center;
+}
+#team_main_caption h2 {text-transform: uppercase;color: black; font-family: "Montserrant", sans-serif;font-weight: bold;}
+
+
+div#team_row .col-sm-2 {
+    
+    left: 0;
+    right:0;
+    margin: auto;
+    text-align: center;
+}
+
+.team_icons_social {
+    
+    color: black;
+    border-radius: 50%;
+    
+}
+
+.team_icons_social:hover {
+    color:#0ed8d6;
+    
+}
+
+div#team_additional_caption p{
+    
+    margin-top: 25px;
+    text-align: center;
+    
 }
