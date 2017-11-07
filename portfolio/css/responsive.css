@@ -1,5 +1,6 @@
 @media all and (max-width: 1200px) {
     
+   
     #portfolio .portfolio-items .portfolio-item {
         
         width: 50%;
@@ -21,7 +22,11 @@
 
 @media all and (max-width: 992px) {
     
-    
+     #header #glowny_napis {
+        
+        padding: 10%;
+        
+    }
     #portfolio .portfolio-items .portfolio-item {
         
         
@@ -68,37 +73,40 @@
     #header #glowny_napis h1 {
         
         font-size: 3em;
-        width: ;
-        height: ;
+        
         
         
     }
     
     #header #glowny_napis h2{
         
-        
-        
+        position: absolute;
+        right: 0;
+        left:0;
+        margin: auto;
+        font-size: 1.5em;
+        width: 230px;
         
     }
     
     
     
-    #o_mnie > figure {
+    section#o_mnie figure {
         
         width: 100%;
         
     }
     
-    #o_mnie > figure >img {
-        
+    section#o_mnie figure > img {
+        float: none;
         max-height: inherit;
-        
+        width: 100%;
     }
     
-    #o_mnie >article {
+    #article_o_mnie {
         
         width: 100%;
-        
+        float: none;
     }
     
     #contact .contact-data,
@@ -129,7 +137,11 @@
         padding: 0 10px 30px
     }
     
-    
+    #header #glowny_napis h1 {
+        
+        font-size: 25px;
+        
+    }
     
     
 }

@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,400|Roboto:100,400&amp;subset=latin-ext" rel="stylesheet">
-
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/responsive.css">
@@ -21,10 +23,10 @@
         <label for="drop" class="toggle">Menu</label>
         <input type="checkbox" id="drop">
         <ul>
-            <li><a href="#">o mnie</a></li>
-            <li><a href="#">umiejętności</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">kontakt</a></li>
+            <li><a href="#o_mnie">o mnie</a></li>
+            <li><a href="#umiejetnosci">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">kontakt</a></li>
         </ul>
 
     </nav>
@@ -45,24 +47,27 @@
 
 
     <section id="o_mnie">
-
+   
         <h2>O <span>mnie</span></h2>
-
+ <div id="o_mnie_row" class="row">
+       
+       <div class="col-sm-6">
         <figure>
 
             <img src="img/jan-nowak.jpg" alt="zdjęcie Jana Nowaka">
 
 
         </figure>
+        </div>
 
-
-
-        <article>
+         <div class="col-sm-6">
+        <article id="article_o_mnie">
 
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam, beatae accusantium modi quam cupiditate, quis consequuntur quod dolore sequi, est aliquid porro vero praesentium minus voluptatem necessitatibus. Omnis atque, consequatur molestias. Mollitia nostrum quaerat, labore nisi dignissimos voluptas quidem earum minima obcaecati quas quisquam fugit ab id quibusdam esse.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam, beatae accusantium modi quam cupiditate, quis consequuntur quod dolore sequi, est aliquid porro vero praesentium minus voluptatem necessitatibus. Omnis atque, consequatur molestias. Mollitia nostrum quaerat, labore nisi dignissimos voluptas quidem earum minima obcaecati quas quisquam fugit ab id quibusdam esse.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam, beatae accusantium modi quam cupiditate, quis consequuntur quod dolore sequi, est aliquid porro vero praesentium minus voluptatem necessitatibus. Omnis atque, consequatur molestias. Mollitia nostrum quaerat, labore nisi dignissimos voluptas quidem earum minima obcaecati quas quisquam fugit ab id quibusdam esse.</p>
         </article>
-
+     </div>
+            </div>
     </section>
 
 
@@ -71,33 +76,42 @@
         <h2>Moje <span> umiejętności </span> </h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae tempore quibusdam voluptas eaque enim laudantium dolorum eum error ducimus officiis.</p>
-
+            
+            
+            
         <div id="ikony">
+          <div id="umiejetnosci_row" class="row">
+           <div class ="col-sm-3">
             <figure class="ikona">
 
                 <img src="icons/html5.png" alt="ikona html5">
                 <figcaption>html5</figcaption>
             </figure>
+            </div>
+            <div class ="col-sm-3">
             <figure class="ikona">
 
                 <img src="icons/css3.png" alt="ikona css3">
                 <figcaption>css3</figcaption>
             </figure>
-
+               </div>
+                <div class ="col-sm-3">
             <figure class="ikona">
 
                 <img src="icons/js.png" alt="ikona java script">
                 <figcaption>java script</figcaption>
             </figure>
-
+               </div>
+                <div class ="col-sm-3">
             <figure class="ikona">
 
                 <img src="icons/jquery.png" alt="ikona jquery">
                 <figcaption>jquery</figcaption>
 
             </figure>
+            </div>
         </div>
-
+        </div>
     </section>
 
 
@@ -106,7 +120,8 @@
         <h2>Moje <span>portfolio</span></h2>
 
         <div class="portfolio-items">
-
+    <div class="row">
+           <div class="col-sm-12">
             <div class="portfolio-item" id="portfolio-item-1">
 
                 <div class="maska" id="maska-1">
@@ -126,10 +141,11 @@
                     </div>
 
                 </div>
-
+                </div>
             </div>
-
-
+            </div>
+            <div class="row">
+            <div class="col-sm-12">
             <div class="portfolio-item" id="portfolio-item-2">
 
 
@@ -151,7 +167,11 @@
 
                     </div>
                 </div>
+                </div>
             </div>
+              </div>
+               <div class="row">
+               <div class="col-sm-12">
                 <div class="portfolio-item" id="portfolio-item-3">
 
                     <div class="maska" id="maska-3">
@@ -178,6 +198,8 @@
                     </div>
                 </div>
             
+        </div>
+        </div>
         </div>
     </section>
 
@@ -236,7 +258,10 @@
     
 </footer>
 
-
+<script src="js/jquery-3.2.1.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

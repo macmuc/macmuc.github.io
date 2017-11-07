@@ -13,6 +13,15 @@ body {
     margin: 0;
 }
 
+.row {width: 100%;margin-left: 0;margin-right: 0;}/*bo dodawał przewijanie horyzontalne przy najmniejszych szerokościach*/
+section {
+    
+    padding: 0 80px 100px;
+    width: 100%;
+    height: 60%;
+    
+}
+
 nav#menu {
     padding: 0;
     background-color: white;
@@ -63,8 +72,6 @@ nav#menu a {
     background-position: center;
     position: relative;
     background-size: cover;
-    /*top: 50%;
-    transform: translateY(-50%);*/
     
     
 }
@@ -77,16 +84,17 @@ div#glowny_napis {
     position: absolute;
     font-family: 'Roboto';
     top: 30%;
-    width: 100%;
-    font-size: 40px;
     text-align: center;
     line-height: 60%;
-     
+     width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    
 }
 h1 {
     
     color: white;
-    
+    font-size: 4em;
 }
 
 h1 span {
@@ -100,14 +108,14 @@ h1 span {
     
     color: white;
     font-weight: 100;
-    
+    font-size: 2em;
     
     
 }
 
 section#o_mnie article p {
     
-    height: 60vh;
+   height: 80%;
     
     
     
@@ -117,35 +125,37 @@ section#o_mnie article p {
 section#o_mnie {
     
     background-color: aliceblue;
-    height:60vh;
-    padding-top: 50px;
+    height: 60%;
     overflow: hidden;
+    padding-top: 50px;
     
-}
-
-section#o_mnie figure img {
-    
-    width:35%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
     
 }
 section#o_mnie figure {
-    width: 50%;
+   /* width: 50%;*/
     float:left;
     margin: 0;
     
     
 }
 
-section#o_mnie article{
+section#o_mnie figure img {
+    max-height: 350px;
+    width:35%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+ #article_o_mnie{
     padding: 30px;
-    width:50%;
+   /* width:50%;*/
     float: right;
     
     
@@ -193,7 +203,7 @@ section#umiejetnosci {
     
     margin-top: 60px;
     text-align: center;
-    height:60vh;
+    height:60%;
    
     
     
@@ -222,7 +232,7 @@ section#umiejetnosci p {
 section#portfolio {
     
     text-align: center;
-    height:60vh;
+    height:60%;
    width: 100%;
     margin: 0;
     
@@ -267,13 +277,14 @@ h2 {
     
 }
 
+
 #portfolio .portfolio-items .portfolio-item
 
 
 {
     
     height: 350px;
-    width: 33%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -502,10 +513,4 @@ footer p
 }
 
 
-section {
-    
-    padding: 0 80px 100px;
-    width: 100%;
-    
-}
 
