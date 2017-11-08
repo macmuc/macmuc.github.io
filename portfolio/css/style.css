@@ -22,7 +22,7 @@ section {
     
 }
 
-nav#menu {
+#main-nav {
     padding: 0;
     background-color: white;
     height: 50px;
@@ -35,13 +35,9 @@ nav#menu {
     
     
 }
+.navbar-toggler {border: none;}
 
-#menu .toggle, [id='drop'] {
-    
-    display: none;
-    
-}
-
+ul.navbar-nav{background-color: white}
 nav#menu ul li {
     
     display: inline-block;
@@ -49,18 +45,20 @@ nav#menu ul li {
     line-height: 50px;
     
 }
-nav#menu ul {
-    
+ul.navbar-nav {
+    width: 100%;
     list-style-type: none;
     margin: 0;
     
 }
 
-nav#menu a {
+.nav-item a{color: #3f3fea;}
+
+.nav-item {
     
     padding: 25px;
     text-decoration: none;
-    color: #1ac056;
+    
     
     
     
@@ -76,9 +74,11 @@ nav#menu a {
     
 }
 
-
-
-div#glowny_napis {
+.jumbotron {background: none;position: relative;top: 50%;transform: translateY(-50%);}
+.jumbotron .container {text-align: center;font-family: 'Roboto';}
+.display-3 span {color: #3f3fea;font-weight: bold;text-shadow: 2px 2px white}
+.container .lead {color: white;font-weight: bold;}
+/*div#glowny_napis {
     
    
     position: absolute;
@@ -90,7 +90,7 @@ div#glowny_napis {
     top: 50%;
     transform: translateY(-50%);
     
-}
+}*/
 h1 {
     
     color: white;
@@ -99,7 +99,7 @@ h1 {
 
 h1 span {
     
-   color: #1ac056; 
+   color: #3f3fea; 
     
     
 }
@@ -132,7 +132,7 @@ section#o_mnie {
     
 }
 section#o_mnie figure {
-   /* width: 50%;*/
+  
     float:left;
     margin: 0;
     
@@ -177,7 +177,7 @@ section#o_mnie h2 {
 
 h2 span {
     
-    color: #1ac056;
+    color: #3f3fea;
     
     
 }
@@ -235,7 +235,7 @@ section#portfolio {
     height:60%;
    width: 100%;
     margin: 0;
-    
+    padding-top: 50px;
 }
 
 h2 {
@@ -355,7 +355,7 @@ h2 {
 
 {
     
-    color: #1ac056;
+    color: #e5cf28;
     
 }
 
@@ -368,11 +368,11 @@ h2 {
 
 #contact {
     
-    background-color: #213b50;
+    background-color: #243441;
     color: #fff;
     overflow: hidden;
     margin-top: 25px;
-    
+    padding-top: 50px;
     
     
 }
@@ -406,7 +406,7 @@ h2 {
 
 #contact .contact-data address a {
     
-    color: #1ac056;
+    color: #3f3fea;
 
     
 }
@@ -430,7 +430,7 @@ h2 {
     
     color: #213b50;
     border:1px solid #213b50;
-    background-color: #fff;
+    background-color: #e5cf28;
     
 }
 
@@ -439,7 +439,7 @@ h2 {
 
 #contact .contact-form {
     
-background-color: #213b50;
+background-color: #243441;
  width: 50%;
     float: left;
     margin-top: 100px;
@@ -466,21 +466,21 @@ background-color: #213b50;
 #contact .contact-form input:focus,
 #contact .contact-form textarea:focus {
     
-    background-color: #426684;
+    background-color: #e5cf28;
     
 }
 
 
 #contact .contact-form form input[type='submit']{
 
-background-color:#1ac056;
+background-color:#3f3fea;
     color: #fff;
     width: auto;
     text-transform: uppercase;
     font-weight: 600;
     padding: 15px 30px;
     float: right;
-    border: 1px #1ac056 solid;
+    border: 1px #3f3fea solid;
     
     
     
@@ -489,8 +489,8 @@ background-color:#1ac056;
 
 #contact .contact-form form input[type='submit']:hover {
     
-    background-color: #fff;
-    color: #1ac056;
+    background-color: #e5cf28;
+    color: #243441;
     
 }
 
