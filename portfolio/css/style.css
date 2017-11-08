@@ -1,25 +1,31 @@
-
 * {
-    
+
     box-sizing: border-box;
-    
-    
+
+
 }
 
 
 body {
-       
-    font-family: 'Lato',sans-serif;
+
+    font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
-.row {width: 100%;margin-left: 0;margin-right: 0;}/*bo dodawał przewijanie horyzontalne przy najmniejszych szerokościach*/
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*bo dodawał przewijanie horyzontalne przy najmniejszych szerokościach*/
+
 section {
-    
+
     padding: 0 80px 100px;
     width: 100%;
     height: 60%;
-    
+
 }
 
 #main-nav {
@@ -32,52 +38,80 @@ section {
     position: fixed;
     font-family: 'Roboto';
     z-index: 1;
-    
-    
-}
-.navbar-toggler {border: none;}
 
-ul.navbar-nav{background-color: white}
+
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+ul.navbar-nav {
+    background-color: white
+}
+
 nav#menu ul li {
-    
+
     display: inline-block;
     margin-right: 10px;
     line-height: 50px;
-    
+
 }
+
 ul.navbar-nav {
     width: 100%;
     list-style-type: none;
     margin: 0;
-    
+
 }
 
-.nav-item a{color: #3f3fea;}
+.nav-item a {
+    color: #3f3fea;
+}
 
 .nav-item {
-    
+
     padding: 25px;
     text-decoration: none;
-    
-    
-    
-    
+
+
+
+
 }
 
 #header {
-    height:80vh;
-    background-image: url(../img/header-background.jpg); 
+    height: 80vh;
+    background-image: url(../img/header-background.jpg);
     background-position: center;
     position: relative;
     background-size: cover;
-    
-    
+
+
 }
 
-.jumbotron {background: none;position: relative;top: 50%;transform: translateY(-50%);}
-.jumbotron .container {text-align: center;font-family: 'Roboto';}
-.display-3 span {color: #3f3fea;font-weight: bold;text-shadow: 2px 2px white}
-.container .lead {color: white;font-weight: bold;}
+.jumbotron {
+    background: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.jumbotron .container {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.display-3 span {
+    color: #3f3fea;
+    font-weight: bold;
+    text-shadow: 2px 2px white
+}
+
+.container .lead {
+    color: white;
+    font-weight: bold;
+}
+
 /*div#glowny_napis {
     
    
@@ -91,57 +125,59 @@ ul.navbar-nav {
     transform: translateY(-50%);
     
 }*/
+
 h1 {
-    
+
     color: white;
     font-size: 4em;
 }
 
 h1 span {
-    
-   color: #3f3fea; 
-    
-    
+
+    color: #3f3fea;
+
+
 }
 
-#glowny_napis h2{
-    
+#glowny_napis h2 {
+
     color: white;
     font-weight: 100;
     font-size: 2em;
-    
-    
+
+
 }
 
 section#o_mnie article p {
-    
-   height: 80%;
-    
-    
-    
+
+    height: 80%;
+
+
+
 }
 
 
 section#o_mnie {
-    
+
     background-color: aliceblue;
     height: 60%;
     overflow: hidden;
     padding-top: 50px;
-    
-    
+
+
 }
+
 section#o_mnie figure {
-  
-    float:left;
+
+    float: left;
     margin: 0;
-    
-    
+
+
 }
 
 section#o_mnie figure img {
     max-height: 350px;
-    width:35%;
+    width: 35%;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
@@ -149,140 +185,131 @@ section#o_mnie figure img {
     left: 0;
     right: 0;
     margin: auto;
-    
+
 }
 
 
- #article_o_mnie{
+#article_o_mnie {
     padding: 30px;
-   /* width:50%;*/
+    /* width:50%;*/
     float: right;
-    
-    
-    
+
+
+
 }
 
 
 section#o_mnie h2 {
-    
+
     position: relative;
     left: 0;
     right: 0;
     margin: auto;
     width: 150px;
-    
-    
-    
+
+
+
 }
 
 h2 span {
-    
+
     color: #3f3fea;
-    
-    
+
+
 }
 
 
 
 figure {
-    margin:0;
+    margin: 0;
     position: relative;
-    
+
 }
 
-figure.ikona img{
-    
-    
+figure.ikona img {
+
+
     margin-bottom: 15px;
-    
-    
+
+
 }
 
 section#umiejetnosci {
-    
-    
+
+
     margin-top: 60px;
     text-align: center;
-    height:60%;
-   
-    
-    
+    height: 60%;
+
+
+
 }
 
 section#umiejetnosci p {
-    
-    
+
+
     margin: 25px;
-    
+
 }
 
 #ikony {
-    
+
     width: 100%;
     text-align: center;
-    
+
 }
 
 .ikona {
-    
+
     display: inline-block;
     margin-right: 45px;
 }
 
 section#portfolio {
-    
+
     text-align: center;
-    height:60%;
-   width: 100%;
+    height: 60%;
+    width: 100%;
     margin: 0;
     padding-top: 50px;
 }
 
 h2 {
-    
+
     margin: 0;
-    
+
 }
 
 #portfolio #portfolio-item-1 {
-    
-    
+
+
     background-image: url(../img/portfolio1.jpg)
-    
-    
 }
 
 
 #portfolio #portfolio-item-2 {
-    
-    
+
+
     background-image: url(../img/portfolio2.jpg)
-    
-    
 }
 
 
 #portfolio #portfolio-item-3 {
-    
-    
+
+
     background-image: url(../img/portfolio4.jpg)
-    
-    
 }
 
 #portfolio .portfolio-items {
-    
+
     text-align: center;
     font-size: 0;
-    
+
 }
 
 
-#portfolio .portfolio-items .portfolio-item
+#portfolio .portfolio-items .portfolio-item {
 
-
-{
-    
     height: 350px;
     width: 33%;
     background-repeat: no-repeat;
@@ -294,11 +321,9 @@ h2 {
 }
 
 
-.maska
+.maska {
 
-{
-    
-    background-color: rgba(12, 27, 141,0);
+    background-color: rgba(12, 27, 141, 0);
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -310,29 +335,29 @@ h2 {
 
 .portfolio-item:hover .maska {
     opacity: 1;
-    background-color:rgba(12, 27, 141,0.7) ;
-    
-    
+    background-color: rgba(12, 27, 141, 0.7);
+
+
 }
 
-    
-    
+
+
 
 
 #portfolio .portfolio-items .portfolio-item .maska .item-content {
-    
+
     position: relative;
-    border:1px solid white;
+    border: 1px solid white;
     margin: 10px;
     height: 330px;
-    
-    
+
+
 }
 
 
-#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner  {
-    
-    
+#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner {
+
+
     color: white;
     position: absolute;
     top: 50%;
@@ -340,80 +365,75 @@ h2 {
     right: 0;
     left: 0;
     padding: 5px;
-    
+
 }
 
-#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner a
-
-{
+#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner a {
     color: #fff;
-    
+
 }
 
-#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner a:hover 
+#portfolio .portfolio-items .portfolio-item .maska .item-content .item-content-inner a:hover {
 
-
-{
-    
     color: #e5cf28;
-    
+
 }
 
 #portfolio h2 {
-    
+
     margin-bottom: 15px;
-    
+
 }
 
 
 #contact {
-    
+
     background-color: #243441;
     color: #fff;
     overflow: hidden;
     margin-top: 25px;
     padding-top: 50px;
-    
-    
+
+
 }
 
 #contact .contact-data {
-    
+
     width: 50%;
     float: left;
-    
-    
-    
-    
+
+
+
+
 }
 
 
 #contact .contact-data h2 {
-    
+
     text-align: left;
     font-size: 38px;
-    
+
 }
 
 #contact .contact-data address {
-    
+
     font-style: normal;
     margin: 72px 0;
     line-height: 25px;
-    
+
 }
 
 
 #contact .contact-data address a {
-    
+
     color: #3f3fea;
 
-    
+
 }
 
 
 #contact .contact-data .contact-social-icons a {
-    
+
     display: inline-block;
     color: #fff;
     height: 38px;
@@ -427,53 +447,53 @@ h2 {
 }
 
 #contact .contact-data .contact-social-icons a:hover {
-    
+
     color: #213b50;
-    border:1px solid #213b50;
+    border: 1px solid #213b50;
     background-color: #e5cf28;
-    
+
 }
 
 
 
 
 #contact .contact-form {
-    
-background-color: #243441;
- width: 50%;
+
+    background-color: #243441;
+    width: 50%;
     float: left;
     margin-top: 100px;
-    
-    
-    
+
+
+
 }
 
 
 #contact .contact-form input,
 #contact .contact-form textarea {
-    
+
     width: 100%;
     padding: 15px;
     margin-bottom: 15px;
     background-color: #2b4a64;
     border: #2b4a64 0px;
     color: #fff;
-    
-    
+
+
 }
 
 
 #contact .contact-form input:focus,
 #contact .contact-form textarea:focus {
-    
+
     background-color: #e5cf28;
-    
+
 }
 
 
-#contact .contact-form form input[type='submit']{
+#contact .contact-form form input[type='submit'] {
 
-background-color:#3f3fea;
+    background-color: #3f3fea;
     color: #fff;
     width: auto;
     text-transform: uppercase;
@@ -481,36 +501,30 @@ background-color:#3f3fea;
     padding: 15px 30px;
     float: right;
     border: 1px #3f3fea solid;
-    
-    
-    
+
+
+
 }
 
 
 #contact .contact-form form input[type='submit']:hover {
-    
+
     background-color: #e5cf28;
     color: #243441;
-    
+
 }
 
 
-footer
-{
-    
+footer {
+
     background-color: #142634;
     color: #fff;
     padding: 0 80px;
-    
-    
+
+
 }
 
-footer p
+footer p {
 
-{
-    
     margin: 0;
 }
-
-
-

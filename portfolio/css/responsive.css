@@ -1,40 +1,44 @@
 @media all and (max-width: 1200px) {
-    
-    #menu_list{display: block;}
-    #portfolio .portfolio-items .portfolio-item {
-        
-        width: 50%;
-        
-        
+
+    #menu_list {
+        display: block;
     }
-        
-        
-    
+    #portfolio .portfolio-items .portfolio-item {
+
+        width: 50%;
+
+
+    }
+
+
+
     #portfolio .portfolio-items .portfolio-item:last-child {
-        
-        
+
+
         width: 100%;
     }
-   
-    
-    
+
+
+
 }
 
 @media all and (max-width: 992px) {
-    
-    #menu_button {display: block;}
-     #header #glowny_napis {
-        
+
+    #menu_button {
+        display: block;
+    }
+    #header #glowny_napis {
+
         padding: 10%;
-        
+
     }
     #portfolio .portfolio-items .portfolio-item {
-        
-        
+
+
         width: 100%;
     }
-    
-   /* #menu .toggle
+
+    /* #menu .toggle
     
     {
         
@@ -49,100 +53,99 @@
         text-align: right;
         
     }*/
-    
     #menu ul#menu_list {
         background-color: white;
         display: none;
-        
+
     }
-    
-  /*  #menu #drop:checked + ul {
+
+    /*  #menu #drop:checked + ul {
         
         display: block;
         
         
     }*/
-    #menu > ul >li {
-        
+    #menu > ul > li {
+
         display: block;
         width: 100%;
         text-align: right;
-        
-        
+
+
     }
-    
+
     #header #glowny_napis h1 {
-        
+
         font-size: 3em;
-        
-        
-        
+
+
+
     }
-    
-    #header #glowny_napis h2{
-        
+
+    #header #glowny_napis h2 {
+
         position: absolute;
         right: 0;
-        left:0;
+        left: 0;
         margin: auto;
         font-size: 1.5em;
         width: 230px;
-        
+
     }
-    
-    
-    
+
+
+
     section#o_mnie figure {
-        
+
         width: 100%;
-        
+
     }
-    
+
     section#o_mnie figure > img {
         float: none;
         max-height: inherit;
         width: 100%;
     }
-    
+
     #article_o_mnie {
-        
+
         width: 100%;
         float: none;
     }
-    
+
     #contact .contact-data,
     #contact .contact-data h2 {
-        
+
         width: 100%;
         text-align: center;
-        
+
     }
-    
-    
-    
+
+
+
 }
 
 
 @media all and (max-width:768px) {
-    
+
     section {
         padding: 0 40px 50px
     }
-    
-    
+
+
 }
 
 @media all and (max-width:576px) {
-    
+
     section {
         padding: 0 10px 30px
     }
-    
+
     #header #glowny_napis h1 {
-        
+
         font-size: 25px;
-        
+
     }
-    
-    
+
+
 }
