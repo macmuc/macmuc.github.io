@@ -1,31 +1,50 @@
+@media all and (min-width:993px) {
+    
+    div.sub_container{
+        
+        margin-left: 15px;
+       top: 50%;
+        transform: translateY(-50%);
+    }
+    
+}
+
 @media all and (max-width:992px) {
 
 
-    div[id^="produkt"] {
+   div.sub_container {
 
-        margin-left: 15%;
-        top: 15%
+       width: 45%;
+        
+    
+    
     }
 
-
+    
 
 }
 
 @media all and (max-width:480px) {
 
 
+    div#container {height: auto;}
+    
 
-    div#container {
-
-        height: 100%;
-
+    div.sub_container {
+        
+        width: 100%;
+        margin-top: 15px;
     }
 
-    div[id^="produkt"] {
-        margin-left: 35%;
-
-
-
+    
+    div[class^="produkt"] {
+        
+        display: block;
+        position: relative;
+        right: 0;
+        left: 0;
+        margin: auto;
+        
+        
     }
-
 }

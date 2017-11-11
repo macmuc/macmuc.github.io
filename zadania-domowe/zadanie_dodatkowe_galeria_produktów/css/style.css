@@ -5,7 +5,8 @@
 
 
 }
-
+html {height: 100%}
+body{ height:  100% }
 
 div#container {
 
@@ -14,7 +15,22 @@ div#container {
     right: 0;
     margin: auto;
     text-align: center;
-    height: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+div.sub_container {
+    
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 20%;
+    
+   
+    
+    margin-bottom: 25px;
 }
 
 div[id^="produkt"] {
@@ -23,10 +39,8 @@ div[id^="produkt"] {
     display: inline-block;
     width: 200px;
     height: 200px;
-    top: 30%;
-    margin-left: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    
+    
     background-position: center;
     background-size: cover;
 }
