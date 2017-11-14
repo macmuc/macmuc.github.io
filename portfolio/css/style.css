@@ -163,21 +163,28 @@ section#o_mnie {
     height: 60%;
     overflow: hidden;
     padding-top: 50px;
-
+    
 
 }
-
+#o_mnie_row {text-align: center;}
+#div_figure_container {
+    
+    display: inline-block;
+    
+    
+}
 section#o_mnie figure {
-
-    float: left;
+    display: inline-block;
+   /* float: left;*/
     margin: 0;
-
-
+    width:auto;
+     
 }
 
 section#o_mnie figure img {
     max-height: 350px;
-    width: 35%;
+   width: auto;
+    
     background-color: white;
     padding: 10px;
     border-radius: 5px;
@@ -192,7 +199,7 @@ section#o_mnie figure img {
 #article_o_mnie {
     padding: 30px;
     /* width:50%;*/
-    float: right;
+   /* float: right;*/
 
 
 
@@ -311,7 +318,7 @@ h2 {
 #portfolio .portfolio-items .portfolio-item {
 
     height: 350px;
-    width: 33%;
+   /* width: 33%;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -330,6 +337,7 @@ h2 {
     transition: all 0.3s ease-in-out;
     position: absolute;
     font-size: initial;
+    left: 0;
 }
 
 
