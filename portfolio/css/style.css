@@ -227,15 +227,15 @@ h2 span {
 
 
 
-figure {
+figure.ikona {
     margin: 0;
     position: relative;
-
+    text-align: center;
 }
 
 figure.ikona img {
 
-
+    display: inline-block;
     margin-bottom: 15px;
 
 
@@ -438,7 +438,7 @@ h2 {
 
 
 }
-
+#contact .contact-data address a:hover{color:#e5cf28;text-decoration: none;}
 
 #contact .contact-data .contact-social-icons a {
 

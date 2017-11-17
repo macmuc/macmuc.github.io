@@ -113,11 +113,11 @@
         float: none;
     }*/
 
-    #contact .contact-data,
-    #contact .contact-data h2 {
+   /* #contact .contact-data,
+    #contact .contact-data h2 {*/
 
-        width: 100%;
-        text-align: center;
+        /*width: 100%;*/
+       /* text-align: center;*/
 
     }
 
@@ -126,20 +126,20 @@
 }
 
 
-@media all and (max-width:768px) {
+.col-md-12,section_class {
 
-    section {
+    
         padding: 0 40px 50px
-    }
+   
 
 
 }
 
-@media all and (max-width:576px) {
+.col-sm-12,section_class {
 
-    section {
+    
         padding: 0 10px 30px
-    }
+}
 
    /* #header #glowny_napis h1 {
 
