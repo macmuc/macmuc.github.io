@@ -1,0 +1,12 @@
+
+
+@media all and (max-width:576px) {
+    
+    #form_main_container {left:0;right: 0;margin: auto;float: none;}
+    #zadzwon_link {display: none;}
+    #finanse_link {left:0;right: 0;margin: auto;left: 0;text-align: center;}
+    #mail p {word-wrap: break-word;}
+    #footer_caption {top: 150px;}
+    footer {min-height:60vh }
+   
+}
