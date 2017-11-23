@@ -1,25 +1,30 @@
 img {
     
     
-    position: relative;
-    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
     padding: 5px;
+    
+    
 }
 
 
 img::before {
     
-    content: attr(border);
-      border:5px solid black;
+    content: "";
 }
 
+
     
-    
-}
+
 img::after {
     
     
-    content: attr(border:5px solid black);
+    content: "";
 
     
 }
@@ -43,6 +48,12 @@ position: absolute;
     
 }
 
+
+img:hover {
+    border: 5px solid black;
+    transform: 
+   
+}
 img:hover + h1 {
     
     animation-name: caption;
@@ -56,11 +67,13 @@ img:hover + h1 {
 
 #container {
     
-    
-    width: 670px;
+    height: 370px;
+    width: 690px;
     position:relative;
-    top: 125px;
-    left: 35%;
+    left: 0;
+    right:0;
+    margin: auto;
+    top: 100px;
     
     
     
